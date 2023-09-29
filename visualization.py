@@ -4,12 +4,12 @@ import seaborn as sns
 
 # Load your dataset (replace 'your_dataset.csv' with your actual dataset)
 data = pd.read_csv("test_dataset.csv")
-'''
+
 # Pairplot to visualize relationships between numeric features
 sns.pairplot(data, vars=['age', 'height(cm)', 'weight(kg)', 'waist(cm)', 'systolic', 'relaxation', 'hemoglobin'])
 plt.title('Pairplot of Numeric Features')
 plt.show()
-
+'''
 # Correlation matrix heatmap
 corr_matrix = data.corr()
 plt.figure(figsize=(12, 8))
